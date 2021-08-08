@@ -1,0 +1,22 @@
+{
+  "name": "firstfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "bunyan-loggly": "^1.4.2",
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "pino": "^6.11.3"
+  },
+  "devDependencies": {
+    "pino-pretty": "^5.1.0"
+  }
+}
